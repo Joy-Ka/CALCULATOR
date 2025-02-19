@@ -3,86 +3,90 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles nine.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Btn9.Click
 
     End Sub
 
-    Private Sub eight_Click(sender As Object, e As EventArgs) Handles eight.Click
+    Private Sub Btn8_Click(sender As Object, e As EventArgs) Handles Btn8.Click
 
     End Sub
 
-    Private Sub seven_Click(sender As Object, e As EventArgs) Handles seven.Click
+    Private Sub Btn7_Click(sender As Object, e As EventArgs) Handles Btn7.Click
 
     End Sub
 
-    Private Sub six_Click(sender As Object, e As EventArgs) Handles six.Click
+    Private Sub Btn6_Click(sender As Object, e As EventArgs) Handles Btn6.Click
 
     End Sub
 
-    Private Sub five_Click(sender As Object, e As EventArgs) Handles five.Click
+    Private Sub Btn5_Click(sender As Object, e As EventArgs) Handles Btn5.Click
 
     End Sub
 
-    Private Sub four_Click(sender As Object, e As EventArgs) Handles four.Click
+    Private Sub Btn4_Click(sender As Object, e As EventArgs) Handles Btn4.Click
 
     End Sub
 
-    Private Sub three_Click(sender As Object, e As EventArgs) Handles three.Click
+    Private Sub Btn3_Click(sender As Object, e As EventArgs) Handles Btn3.Click
 
     End Sub
 
-    Private Sub two_Click(sender As Object, e As EventArgs) Handles two.Click
+    Private Sub Btn2_Click(sender As Object, e As EventArgs) Handles Btn2.Click
 
     End Sub
 
-    Private Sub one_Click(sender As Object, e As EventArgs) Handles one.Click
+    Private Sub Btn1_Click(sender As Object, e As EventArgs) Handles Btn1.Click
 
     End Sub
 
-    Private Sub zero_Click(sender As Object, e As EventArgs) Handles zero.Click
+    Private Sub BtnDecimal_Click(sender As Object, e As EventArgs) Handles BtnDecimal.Click
 
     End Sub
 
 
-    ' Start of  the basic arithmetic manipulation Functions'
+    'Arithmetic Manipuation Functions'
 
-    Private Sub division_Click(sender As Object, e As EventArgs) Handles division.Click
-
-    End Sub
-
-    Private Sub multiply_Click(sender As Object, e As EventArgs) Handles multiply.Click
+    Private Sub BtnMultiply_Click(sender As Object, e As EventArgs) Handles BtnMultiply.Click
 
     End Sub
 
-    Private Sub addition_Click(sender As Object, e As EventArgs) Handles addition.Click
+    Private Sub BtnDivision_Click(sender As Object, e As EventArgs) Handles BtnDivision.Click
 
     End Sub
 
-    Private Sub subtract_Click(sender As Object, e As EventArgs) Handles subtract.Click
+    Private Sub BtnAdd_Click(sender As Object, e As EventArgs) Handles BtnAdd.Click
 
     End Sub
 
-    'Output Manipulation Functions'
-
-    Private Sub Equal_to_Click(sender As Object, e As EventArgs) Handles Equal_to.Click
+    Private Sub BtnSubtract_Click(sender As Object, e As EventArgs) Handles BtnSubtract.Click
 
     End Sub
 
-    Private Sub OFF_Click(sender As Object, e As EventArgs) Handles OFF.Click
-
-    End Sub
-
-    Private Sub clear_Click(sender As Object, e As EventArgs) Handles clear.Click
-
-    End Sub
-
-    Private Sub DELETE_Click(sender As Object, e As EventArgs) Handles DELETE.Click
+    Private Sub BtnPositive_Negative_Click(sender As Object, e As EventArgs) Handles BtnPositive_Negative.Click
 
     End Sub
 
     'Input Manipulation Functions'
-
     Private Sub Input_Output_TextChanged(sender As Object, e As EventArgs) Handles Input_Output.TextChanged
 
     End Sub
+
+    'Output Manipuation Functions'
+    Private Sub BtnEqual_Click(sender As Object, e As EventArgs) Handles BtnEqual.Click
+
+    End Sub
+
+    'Other Functions'
+    Private Sub BtnOFF_Click(sender As Object, e As EventArgs) Handles BtnOFF.Click
+
+    End Sub
+
+    Private Sub BtnClear_Click(sender As Object, e As EventArgs) Handles BtnClear.Click
+
+    End Sub
+
+    Private Sub BtnDelete_Click(sender As Object, e As EventArgs) Handles BtnDelete.Click
+
+    End Sub
+
 End Class
