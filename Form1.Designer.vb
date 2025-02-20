@@ -44,6 +44,8 @@ Partial Class Form1
         Me.BtnPositive_Negative = New System.Windows.Forms.Button()
         Me.BtnDecimal = New System.Windows.Forms.Button()
         Me.Btn0 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Btn9
@@ -51,7 +53,7 @@ Partial Class Form1
         Me.Btn9.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn9.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn9.Location = New System.Drawing.Point(7, 69)
+        Me.Btn9.Location = New System.Drawing.Point(7, 92)
         Me.Btn9.Name = "Btn9"
         Me.Btn9.Size = New System.Drawing.Size(77, 54)
         Me.Btn9.TabIndex = 0
@@ -61,11 +63,11 @@ Partial Class Form1
         'Input_Output
         '
         Me.Input_Output.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Input_Output.Font = New System.Drawing.Font("Castellar", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Input_Output.Location = New System.Drawing.Point(7, 5)
+        Me.Input_Output.Font = New System.Drawing.Font("Century", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Input_Output.Location = New System.Drawing.Point(7, 28)
         Me.Input_Output.Multiline = True
         Me.Input_Output.Name = "Input_Output"
-        Me.Input_Output.Size = New System.Drawing.Size(391, 59)
+        Me.Input_Output.Size = New System.Drawing.Size(365, 59)
         Me.Input_Output.TabIndex = 20
         '
         'Btn8
@@ -73,7 +75,7 @@ Partial Class Form1
         Me.Btn8.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn8.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn8.Location = New System.Drawing.Point(86, 69)
+        Me.Btn8.Location = New System.Drawing.Point(86, 92)
         Me.Btn8.Name = "Btn8"
         Me.Btn8.Size = New System.Drawing.Size(77, 54)
         Me.Btn8.TabIndex = 21
@@ -85,7 +87,7 @@ Partial Class Form1
         Me.Btn7.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn7.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn7.Location = New System.Drawing.Point(164, 69)
+        Me.Btn7.Location = New System.Drawing.Point(164, 92)
         Me.Btn7.Name = "Btn7"
         Me.Btn7.Size = New System.Drawing.Size(77, 54)
         Me.Btn7.TabIndex = 22
@@ -96,12 +98,12 @@ Partial Class Form1
         '
         Me.BtnMultiply.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnMultiply.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnMultiply.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnMultiply.Location = New System.Drawing.Point(242, 69)
+        Me.BtnMultiply.Font = New System.Drawing.Font("Cascadia Code", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnMultiply.Location = New System.Drawing.Point(242, 92)
         Me.BtnMultiply.Name = "BtnMultiply"
         Me.BtnMultiply.Size = New System.Drawing.Size(77, 54)
         Me.BtnMultiply.TabIndex = 23
-        Me.BtnMultiply.Text = "*"
+        Me.BtnMultiply.Text = "x"
         Me.BtnMultiply.UseVisualStyleBackColor = False
         '
         'BtnOFF
@@ -109,7 +111,7 @@ Partial Class Form1
         Me.BtnOFF.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnOFF.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnOFF.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnOFF.Location = New System.Drawing.Point(321, 69)
+        Me.BtnOFF.Location = New System.Drawing.Point(321, 92)
         Me.BtnOFF.Name = "BtnOFF"
         Me.BtnOFF.Size = New System.Drawing.Size(77, 54)
         Me.BtnOFF.TabIndex = 24
@@ -121,7 +123,7 @@ Partial Class Form1
         Me.BtnClear.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnClear.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnClear.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnClear.Location = New System.Drawing.Point(321, 129)
+        Me.BtnClear.Location = New System.Drawing.Point(321, 149)
         Me.BtnClear.Name = "BtnClear"
         Me.BtnClear.Size = New System.Drawing.Size(77, 54)
         Me.BtnClear.TabIndex = 29
@@ -133,7 +135,7 @@ Partial Class Form1
         Me.BtnDivision.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnDivision.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnDivision.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnDivision.Location = New System.Drawing.Point(242, 129)
+        Me.BtnDivision.Location = New System.Drawing.Point(242, 149)
         Me.BtnDivision.Name = "BtnDivision"
         Me.BtnDivision.Size = New System.Drawing.Size(77, 54)
         Me.BtnDivision.TabIndex = 28
@@ -145,7 +147,7 @@ Partial Class Form1
         Me.Btn4.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn4.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn4.Location = New System.Drawing.Point(164, 129)
+        Me.Btn4.Location = New System.Drawing.Point(164, 149)
         Me.Btn4.Name = "Btn4"
         Me.Btn4.Size = New System.Drawing.Size(77, 54)
         Me.Btn4.TabIndex = 27
@@ -157,7 +159,7 @@ Partial Class Form1
         Me.Btn5.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn5.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn5.Location = New System.Drawing.Point(86, 129)
+        Me.Btn5.Location = New System.Drawing.Point(86, 149)
         Me.Btn5.Name = "Btn5"
         Me.Btn5.Size = New System.Drawing.Size(77, 54)
         Me.Btn5.TabIndex = 26
@@ -169,7 +171,7 @@ Partial Class Form1
         Me.Btn6.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn6.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn6.Location = New System.Drawing.Point(7, 129)
+        Me.Btn6.Location = New System.Drawing.Point(7, 149)
         Me.Btn6.Name = "Btn6"
         Me.Btn6.Size = New System.Drawing.Size(77, 54)
         Me.Btn6.TabIndex = 25
@@ -181,7 +183,7 @@ Partial Class Form1
         Me.BtnDelete.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnDelete.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnDelete.Font = New System.Drawing.Font("Wingdings", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(2, Byte))
-        Me.BtnDelete.Location = New System.Drawing.Point(321, 189)
+        Me.BtnDelete.Location = New System.Drawing.Point(321, 206)
         Me.BtnDelete.Name = "BtnDelete"
         Me.BtnDelete.Size = New System.Drawing.Size(77, 54)
         Me.BtnDelete.TabIndex = 34
@@ -193,7 +195,7 @@ Partial Class Form1
         Me.BtnAdd.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnAdd.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnAdd.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAdd.Location = New System.Drawing.Point(242, 189)
+        Me.BtnAdd.Location = New System.Drawing.Point(242, 206)
         Me.BtnAdd.Name = "BtnAdd"
         Me.BtnAdd.Size = New System.Drawing.Size(77, 54)
         Me.BtnAdd.TabIndex = 33
@@ -205,7 +207,7 @@ Partial Class Form1
         Me.Btn1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn1.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn1.Location = New System.Drawing.Point(164, 189)
+        Me.Btn1.Location = New System.Drawing.Point(164, 206)
         Me.Btn1.Name = "Btn1"
         Me.Btn1.Size = New System.Drawing.Size(77, 54)
         Me.Btn1.TabIndex = 32
@@ -217,7 +219,7 @@ Partial Class Form1
         Me.Btn2.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn2.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn2.Location = New System.Drawing.Point(86, 189)
+        Me.Btn2.Location = New System.Drawing.Point(86, 206)
         Me.Btn2.Name = "Btn2"
         Me.Btn2.Size = New System.Drawing.Size(77, 54)
         Me.Btn2.TabIndex = 31
@@ -229,7 +231,7 @@ Partial Class Form1
         Me.Btn3.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn3.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn3.Location = New System.Drawing.Point(7, 189)
+        Me.Btn3.Location = New System.Drawing.Point(7, 206)
         Me.Btn3.Name = "Btn3"
         Me.Btn3.Size = New System.Drawing.Size(77, 54)
         Me.Btn3.TabIndex = 30
@@ -241,7 +243,7 @@ Partial Class Form1
         Me.BtnEqual.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnEqual.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnEqual.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnEqual.Location = New System.Drawing.Point(321, 249)
+        Me.BtnEqual.Location = New System.Drawing.Point(321, 262)
         Me.BtnEqual.Name = "BtnEqual"
         Me.BtnEqual.Size = New System.Drawing.Size(77, 54)
         Me.BtnEqual.TabIndex = 39
@@ -253,7 +255,7 @@ Partial Class Form1
         Me.BtnSubtract.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnSubtract.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnSubtract.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnSubtract.Location = New System.Drawing.Point(242, 249)
+        Me.BtnSubtract.Location = New System.Drawing.Point(242, 262)
         Me.BtnSubtract.Name = "BtnSubtract"
         Me.BtnSubtract.Size = New System.Drawing.Size(77, 54)
         Me.BtnSubtract.TabIndex = 38
@@ -265,7 +267,7 @@ Partial Class Form1
         Me.BtnPositive_Negative.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnPositive_Negative.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnPositive_Negative.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnPositive_Negative.Location = New System.Drawing.Point(164, 249)
+        Me.BtnPositive_Negative.Location = New System.Drawing.Point(164, 262)
         Me.BtnPositive_Negative.Name = "BtnPositive_Negative"
         Me.BtnPositive_Negative.Size = New System.Drawing.Size(77, 54)
         Me.BtnPositive_Negative.TabIndex = 37
@@ -277,7 +279,7 @@ Partial Class Form1
         Me.BtnDecimal.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BtnDecimal.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnDecimal.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnDecimal.Location = New System.Drawing.Point(86, 249)
+        Me.BtnDecimal.Location = New System.Drawing.Point(86, 262)
         Me.BtnDecimal.Name = "BtnDecimal"
         Me.BtnDecimal.Size = New System.Drawing.Size(77, 54)
         Me.BtnDecimal.TabIndex = 36
@@ -289,19 +291,37 @@ Partial Class Form1
         Me.Btn0.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Btn0.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn0.Font = New System.Drawing.Font("Calisto MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btn0.Location = New System.Drawing.Point(7, 249)
+        Me.Btn0.Location = New System.Drawing.Point(7, 262)
         Me.Btn0.Name = "Btn0"
         Me.Btn0.Size = New System.Drawing.Size(77, 54)
         Me.Btn0.TabIndex = 35
         Me.Btn0.Text = "0"
         Me.Btn0.UseVisualStyleBackColor = False
         '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Century", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(275, 1)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(97, 24)
+        Me.Label1.TabIndex = 40
+        '
+        'Label2
+        '
+        Me.Label2.Font = New System.Drawing.Font("Century", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(374, 38)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(24, 37)
+        Me.Label2.TabIndex = 41
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(403, 308)
+        Me.ClientSize = New System.Drawing.Size(404, 326)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnEqual)
         Me.Controls.Add(Me.BtnSubtract)
         Me.Controls.Add(Me.BtnPositive_Negative)
@@ -325,7 +345,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Btn9)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.Text = " CALCULATOR APP"
+        Me.Text = "  STANDARD  CALCULATOR"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -351,4 +371,6 @@ Partial Class Form1
     Friend WithEvents BtnPositive_Negative As Button
     Friend WithEvents BtnDecimal As Button
     Friend WithEvents Btn0 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
