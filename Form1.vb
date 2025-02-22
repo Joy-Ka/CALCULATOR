@@ -1,6 +1,8 @@
 ﻿Public Class Form1
 
-    'Variables Documentation'
+'***********************************************************************************'
+                 ' STANDARD CLACULATOR IN VISUAL BASIC'
+'***********************************************************************************'
 
     'Input_Output.Text'
     'Label1.Text'
