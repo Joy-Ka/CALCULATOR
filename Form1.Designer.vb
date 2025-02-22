@@ -248,6 +248,7 @@ Partial Class Form1
         Me.BtnEqual.Size = New System.Drawing.Size(77, 54)
         Me.BtnEqual.TabIndex = 39
         Me.BtnEqual.Text = "="
+        Me.BtnEqual.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.BtnEqual.UseVisualStyleBackColor = False
         '
         'BtnSubtract
